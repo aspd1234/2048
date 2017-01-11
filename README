@@ -1,0 +1,31 @@
+Name: Seonghyeon Sean Kim
+Login: cs8bwapp
+Date: March 3, 2016
+File: README
+Sources of Help: google
+
+This program is for answering the short questions.
+
+Short Response:
+
+1) To find and replace every instance of the word "fun" with "amazing", do
+:%s/fun/amazing/g
+To find and replace only the first instance of the words, do
+:s/fun/amazing/g
+
+2) To make a directory inside a dirctory, do
+mkdir -p fooDir/barDir
+
+3) If you type cd* in command mode, it will search for anything that starts
+with cd.
+
+4) To open all files in a given director, do
+gvim*
+
+5) A static method is one that does not need a caller variable to use the
+method with. For example, if you wanted to use the static method abs(int),
+then you can just do Math.abs(int number).
+
+6) The student should make classes for different shapes that can be 
+subclasses of ShapeDrawer, and they can all have their own specific 
+parameters for the methods.
